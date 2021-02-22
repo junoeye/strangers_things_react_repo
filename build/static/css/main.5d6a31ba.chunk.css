@@ -1,0 +1,17 @@
+
+/* !Navigation Header */.siteName{display:flex;color:#00f;font-family:Roboto;font-size:24px;font-weight:700;text-decoration:underline}.createPost,.dashboard,.loginRegister,.logOut{display:flex;color:#00f;text-decoration:none;font-family:Roboto;font-size:20px;font-weight:700}
+  
+  /* !Hello User */.helloUser{margin-top:.5em;margin-left:1em;font-family:"Roboto"}
+  
+  /*!POSTS*/.postsHeading{margin-top:.5em;margin-bottom:.5em}.postsBody{margin-left:1em}.viewPostsButton{cursor:pointer;border:1px solid #00f;color:#00f;background-color:#fff}.singlePost{margin-top:.5em;margin-bottom:.5em;margin-left:1em}
+  
+  /*!CREATE POST PAGE*/.createPostPage{display:inline-block;margin-left:1em}.createPostTitle{margin:15px}.titleText{margin-left:15px;font-weight:700}.title{margin:15px;padding:.5em;width:400px;border:1px solid #000}.descriptionText{margin-left:15px;font-weight:700}.description{margin:15px;padding:.5em;height:200px;width:400px;border:1px solid #000}.priceText{margin-left:15px;font-weight:700}.price{margin:15px;padding:.5em;border:1px solid #000}.locationText{margin-left:15px;font-weight:700}.location{margin:15px;padding:.5em;border:1px solid #000}.willDeliver{margin-left:5px;padding:.5em;font-weight:700}
+  
+  /*! DASHOARD PAGE*/.userDashboardTitle{margin-top:.5em}.messagesHeading{margin-top:.25em;margin-bottom:.5em}
+  
+  /*! REPLY PAGE*/.dashboardBody,.messagesBody{margin-left:1em}.messagesTitle{margin-top:.5em;margin-left:.65em}
+  
+  /*!ACCOUNT FORM*/.form{display:flex;flex-direction:column;align-items:center}.formTitle{margin-top:30px;margin-bottom:15px}.inputPassword,.inputUsername{margin:15px;padding:.25em;outline:1px solid #000}.switchToLink{margin:30px}
+  
+  /* !Loading Graphic*/#loading{position:fixed;top:0;left:0;right:0;bottom:0;-webkit-backdrop-filter:blur(3px);backdrop-filter:blur(3px);background:grey;font-family:"Roboto",sans-serif;font-size:2rem;text-align:center}#loading .message{min-width:480px;padding:3rem;box-shadow:0 2px 8px #00f;background:#fff;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)}
+/*# sourceMappingURL=main.5d6a31ba.chunk.css.map */
