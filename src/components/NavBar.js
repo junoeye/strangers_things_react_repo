@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import { Appbar, Toolbar, Typography, makeStyles } from "@material-ui/core";
 import "./specificStyles.css";
 
@@ -8,8 +7,10 @@ const useStyles = makeStyles({
   toolbar: {
     display: "flex",
     justifyContent: "space-between",
-    background: "silver",
+    background: 'linear-gradient(45deg, #464E55 30%, #BEBFC0 90%)',
     width: "100vw",
+    borderRadius: 5,
+    boxShadow: '0 3px 5px 2px #C2C5C7'
   },
 });
 

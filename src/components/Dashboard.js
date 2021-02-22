@@ -1,20 +1,14 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { callApi } from "../api";
-
 import { Button } from "@material-ui/core";
 import "./specificStyles.css";
 
 const Dashboard = ({ posts, token, userData }) => {
   const myMessages = userData.messages;
   const postsToDisplay = userData.posts;
-
-  console.log("dashboard", myMessages);
-  console.log(myMessages);
-
   const history = useHistory();
-
-  const handleReply = async (event) => {    
+    const handleReply = async (event) => {    
     const data = await callApi({
       url: `/posts`,
       body: { post: { title, description, price, location, deliver } },
@@ -63,8 +57,6 @@ const Dashboard = ({ posts, token, userData }) => {
                 color: "white",
               }}
               onClick={() => handleUpdate()}
-              // history.push(`/reply/${message.post._id}`);
-              // }}
             >
               Update
             </Button>
@@ -78,8 +70,6 @@ const Dashboard = ({ posts, token, userData }) => {
                 color: "white",
               }}
               onClick={() => handleDelete()}
-              // history.push(`/reply/${message.post._id}`);
-              // }}
             >
               DELETE
             </Button>
@@ -89,8 +79,6 @@ const Dashboard = ({ posts, token, userData }) => {
       </div>
 
       <h2 className="messagesHeading">Messages</h2>
-
-      {/* <div>{userData.posts}</div> */}
 
       {myMessages.map((message) => (
         <div
@@ -112,8 +100,6 @@ const Dashboard = ({ posts, token, userData }) => {
                 color: "white",
               }}
               onClick={() => handleReply()}
-              // history.push(`/reply/${message.post._id}`);
-              // }}
             >
               Reply
             </Button>

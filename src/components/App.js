@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
 import { AccountForm, Posts, Post, CreatePost, Dashboard, Reply} from ".";
 import { callApi } from "../api";
-
 import { NavBar } from ".";
 import './specificStyles.css';
 

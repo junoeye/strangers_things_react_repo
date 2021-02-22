@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { callApi } from "../api";
-
 import { Button } from "@material-ui/core";
 import "./specificStyles.css";
 
@@ -11,8 +10,6 @@ const Reply = ({ token }) => {
 
   const handleReply = async (event) => {
     event.preventDefault();
-    // const token = data?.data?.token;
-    // if there's data, tack on data prop. if data.data tack on token prop
     const data = await callApi({
       url: `/posts`,
       body: { post: { title, description, price, location, deliver } },
@@ -27,7 +24,6 @@ const Reply = ({ token }) => {
     } else {
       window.alert("Message wasn't successful");
     }
-    // console.log("data", data)
   };
 
   return (

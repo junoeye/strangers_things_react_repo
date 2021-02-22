@@ -1,16 +1,14 @@
-
-/* !Navigation Header */
 .siteName {
     display: flex;
-    color: blue;
+    color: steelblue;
     font-family: Roboto;
-    font-size: 24px;
+    font-size: 35px;
     font-weight: bold;
     text-decoration: underline;
   }
   .createPost {
     display: flex;
-    color: blue;
+    color: steelblue;
     text-decoration: none;
     font-family: Roboto;
     font-size: 20px;
@@ -18,7 +16,7 @@
   }
   .dashboard {
     display: flex;
-    color: blue;
+    color: steelblue;
     text-decoration: none;
     font-family: Roboto;
     font-size: 20px;
@@ -26,7 +24,7 @@
   }
   .logOut {
     display: flex;
-    color: blue;
+    color: steelblue;
     text-decoration: none;
     font-family: Roboto;
     font-size: 20px;
@@ -34,21 +32,17 @@
   }
   .loginRegister {
     display: flex;  
-    color: blue;
+    color: steelblue;
     text-decoration: none;
     font-family: Roboto;
     font-size: 20px;
     font-weight: bold;
   }
-  
-  /* !Hello User */
   .helloUser {
     margin-top: 0.5em;
     margin-left: 1em;
     font-family: 'Roboto';
   }
-  
-  /*!POSTS*/
   .postsHeading {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
@@ -58,17 +52,16 @@
   }
   .viewPostsButton {
     cursor: pointer;
-    border: 1px solid blue;
-    color: blue;
+    border: 1px solid steelblue;
+    color: steelblue;
     background-color: white;
+    border-radius: 5%;
   }
   .singlePost {
     margin-top: 0.5em;
     margin-bottom: 0.5em;
     margin-left: 1em;
   }
-  
-  /*!CREATE POST PAGE*/
   .createPostPage {
     display: inline-block; 
     margin-left: 1em;
@@ -84,7 +77,7 @@
     margin: 15px;
     padding: .5em;
     width: 400px;
-    border: 1px solid black;
+    border: 1px solid steelblue;
   }
   .descriptionText {
     margin-left: 15px;
@@ -95,7 +88,7 @@
     padding: .5em;
     height: 200px;
     width: 400px;
-    border: 1px solid black;
+    border: 1px solid steelblue;
   }
   .priceText {
     margin-left: 15px;
@@ -104,7 +97,7 @@
   .price {
     margin: 15px;
     padding: .5em;
-    border: 1px solid black;
+    border: 1px solid steelblue;
   }
   .locationText {
     margin-left: 15px;
@@ -113,15 +106,13 @@
   .location {
     margin: 15px;
     padding: .5em;
-    border: 1px solid black;
+    border: 1px solid steelblue;
   }
   .willDeliver {
     margin-left: 5px;
     padding: .5em;
     font-weight: bold;
   }
-  
-  /*! DASHOARD PAGE*/
   .userDashboardTitle {
     margin-top: 0.5em;
   }
@@ -132,8 +123,6 @@
   .dashboardBody {
     margin-left: 1em;
   }
-  
-  /*! REPLY PAGE*/
   .messagesBody {
     margin-left: 1em;
   }
@@ -141,8 +130,6 @@
     margin-top: 0.5em;
     margin-left: .65em
   }
-  
-  /*!ACCOUNT FORM*/
   .form {
     display: flex;
     flex-direction: column;
@@ -155,18 +142,17 @@
   .inputUsername {
     margin: 15px;
     padding: 0.25em;
-    outline: 1px solid black;
+    outline: 1px solid steelblue;
   }
   .inputPassword {
     margin: 15px;
     padding: 0.25em;
-    outline: 1px solid black;
+    outline: 1px solid steelblue;
   }
   .switchToLink {
     margin: 30px;
   }
   
-  /* !Loading Graphic*/
   #loading {
     position: fixed;
     top: 0;
@@ -182,7 +168,7 @@
   #loading .message {
     min-width: 480px;
     padding: 3rem;
-    box-shadow: 0 2px 8px blue;
+    box-shadow: 0 2px 8px steelblue;
     background: white;
     position: absolute;
     top: 50%;
