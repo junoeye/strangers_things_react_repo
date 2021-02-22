@@ -18,12 +18,15 @@
     "url": "https://github.com/junoeye/strangers_things_reaact_repo/issues"
   },
   "dependencies": {
+    "-": "^0.0.1",
     "@material-ui/core": "^4.11.3",
     "fontsource-roboto": "^4.0.0",
+    "indicative": "^7.4.4",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.2",
+    "save": "^2.4.0",
     "styled-components": "^5.2.1"
   },
   "browserslist": {

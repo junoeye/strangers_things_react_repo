@@ -1,0 +1,192 @@
+
+/* !Navigation Header */
+.siteName {
+    display: flex;
+    color: blue;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  .createPost {
+    display: flex;
+    color: blue;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .dashboard {
+    display: flex;
+    color: blue;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .logOut {
+    display: flex;
+    color: blue;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .loginRegister {
+    display: flex;  
+    color: blue;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* !Hello User */
+  .helloUser {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    font-family: 'Roboto';
+  }
+  
+  /*!POSTS*/
+  .postsHeading {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+  }
+  .postsBody {
+    margin-left: 1em;
+  }
+  .viewPostsButton {
+    cursor: pointer;
+    border: 1px solid blue;
+    color: blue;
+    background-color: white;
+  }
+  .singlePost {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+  }
+  
+  /*!CREATE POST PAGE*/
+  .createPostPage {
+    display: inline-block; 
+    margin-left: 1em;
+  }
+  .createPostTitle {
+    margin: 15px;
+  }
+  .titleText {
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  .title {
+    margin: 15px;
+    padding: .5em;
+    width: 400px;
+    border: 1px solid black;
+  }
+  .descriptionText {
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  .description {
+    margin: 15px;
+    padding: .5em;
+    height: 200px;
+    width: 400px;
+    border: 1px solid black;
+  }
+  .priceText {
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  .price {
+    margin: 15px;
+    padding: .5em;
+    border: 1px solid black;
+  }
+  .locationText {
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  .location {
+    margin: 15px;
+    padding: .5em;
+    border: 1px solid black;
+  }
+  .willDeliver {
+    margin-left: 5px;
+    padding: .5em;
+    font-weight: bold;
+  }
+  
+  /*! DASHOARD PAGE*/
+  .userDashboardTitle {
+    margin-top: 0.5em;
+  }
+  .messagesHeading {
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+  }
+  .dashboardBody {
+    margin-left: 1em;
+  }
+  
+  /*! REPLY PAGE*/
+  .messagesBody {
+    margin-left: 1em;
+  }
+  .messagesTitle {
+    margin-top: 0.5em;
+    margin-left: .65em
+  }
+  
+  /*!ACCOUNT FORM*/
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .formTitle {
+    margin-top: 30px;
+    margin-bottom: 15px;
+  }
+  .inputUsername {
+    margin: 15px;
+    padding: 0.25em;
+    outline: 1px solid black;
+  }
+  .inputPassword {
+    margin: 15px;
+    padding: 0.25em;
+    outline: 1px solid black;
+  }
+  .switchToLink {
+    margin: 30px;
+  }
+  
+  /* !Loading Graphic*/
+  #loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(3px);
+    background: gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+  }
+  #loading .message {
+    min-width: 480px;
+    padding: 3rem;
+    box-shadow: 0 2px 8px blue;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
